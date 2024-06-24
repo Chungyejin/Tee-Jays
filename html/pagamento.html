@@ -1,0 +1,112 @@
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/pagamento.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/pagamento.js"></script>
+    <link rel="stylesheet" href="../css/fontawesome-free-web/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="esquerda">
+        <a href="../index.html"> <img class="itemMenu" src="../img/logo.png" width="160px"> </a>
+        
+        <div class="botao-busca">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="../index.html"><input type="text" name="busca" placeholder="Buscar produto"></a>
+          <button type="button"></button>
+        </div>
+      </div>
+            
+      <div class="menu">
+        <button class="menu-botao">
+          <img class="img-menu" src="../img/menu.png" width="50px">
+        </button>
+        <div class="menu-conteudo">
+          <a href="carrinho.html">Meu Carrinho</a>
+          <a href="cadastrar.html">Página Adm</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="titulo">
+      <img src="../img/lolipop.gif" width="70px" height="70px">
+      <h2 class="diminuir">  FORMA DE PAGAMENTO  </h2>
+      <img src="../img/lolipop.gif" width="70px" height="70px">
+    </div>
+    <div class="forma-pagamento">
+      <form>
+        <div class="opcoes">
+        <div class="tipo-pagamento">
+        <div>
+          <input id="credito" type="radio" name="pagar" value="1" onclick="c()"/>
+          <label for="credito">Cartão de crédito</label>
+        </div>
+        <div style="visibility:hidden" name="meses" id="meses" class="credito">
+          <input type="text" class="form-control" placeholder="Número do cartão">
+          <input type="password" class="form-control" placeholder="Código">
+          <div class="junto">
+           <p>Data de vencimento: </p>
+            <input type="date" class="form-control">
+          </div>
+          <div class="junto">
+            <p>Quantas parcelas?</p>
+              <div class="opcoes">
+              <input id="2" type="radio" name="tipodemeses" value="2"/>
+              <label for="credito">2</label>
+              <input id="3" type="radio" name="tipodemeses" value="3"/>
+              <label for="credito">3</label>
+              <input id="4" type="radio" name="tipodemeses" value="4"/>
+              <label for="credito">4</label>
+              <input id="5" type="radio" name="tipodemeses" value="5"/>
+              <label for="credito">5</label>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tipo-pagamento">
+        <div>
+          <input  id="debito" type="radio" name="pagar" value="2" onclick="d()">
+          <label for="debito">Cartão de débito</label>
+        </div>
+        <div style="visibility:hidden" name="senha" id="senha" class="debito">
+          <input type="text" class="form-control" placeholder="Número do cartão">
+          <input type="text" class="form-control" placeholder="Código">
+          <input type="password" class="form-control" placeholder="Senha">
+          <div class="junto">
+            <p>Data de vencimento: </p>
+            <input type="date" class="form-control">
+          </div>
+        </div>
+      </div>
+
+      <div class="tipo-pagamento">
+        <div>
+          <input  id="pix" type="radio" name="pagar" value="3" onclick="p()">
+          <label for="pix">Pix</label>
+        </div>
+        <div style="visibility:hidden" name="qrcode" id="qrcode" class="pix">
+          <img src="../img/pix.png" class="img-pix">
+        </div>
+      </div>
+    </div>
+      </form>
+
+      <div class="botao-pagar">
+        <a href="sucesso.html"><button type="button" onclick="finalizar()">PAGAR</button></a>
+      </div>
+      
+    </div>
+
+   
+  </body>
+  
+</html>

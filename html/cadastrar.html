@@ -1,0 +1,60 @@
+<html>
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/cadastrar.css">
+    <link rel="stylesheet" href="../css/indexadm.css">
+    <script src="../js/cadastrar.js"></script>
+    <link rel="stylesheet" href="../css/fontawesome-free-web/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="esquerda">
+        <a href="../index.html"> <img class="itemMenu" src="../img/logoadm.png" width="160px"> </a>
+        
+        <div class="botao-busca">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="../index.html"><input type="text" name="busca" placeholder="Buscar produto"></a>
+          <button type="button"></button>
+        </div>
+      </div>
+      
+      <div class="menu">
+        <button class="menu-botao">
+          <img class="img-menu" src="../img/menu.png" width="50px">
+        </button>
+        <div class="menu-conteudo">
+          <a href="cadastrar.html">Cadastrar produto</a>
+          <a href="excluir.html">Excluir produto</a>
+          <a href="../index.html">Página Geral</a>
+        </div>
+      </div>
+    </div>
+
+      
+    
+    <div class="titulo">
+      <img src="../img/blue.gif" style="padding-right: 13px;">
+      <h2 class="diminuir">  CADASTRAR NOVO PRODUTO  </h2>
+      <img src="../img/blue.gif">
+    </div>
+
+    <div class="cadastro">
+      <form id="cadastro" class="cadastro">
+        <input type="text" name="nome" placeholder="Nome do produto">
+        <input type="text" name="preco" placeholder="Preço do produto">
+        <input type="file" name="imagem" enctype="multipart/form-data" accept="image/png" class="img-produto"></form>
+      <br>
+      <button type="button" class="confirmar" onclick="cadastrar()">CADASTRAR</button>
+   
+    </div>
+    
+  </body>
+  
+</html>

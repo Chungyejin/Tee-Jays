@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/fontawesome-free-web/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <div class="esquerda">
+      <a href="index.html"> <img class="itemMenu" src="img/logo.png"> </a>
+      
+      <div class="botao-busca">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="busca" id="busca" placeholder="Buscar produto">
+        <button type="button" onclick="acionar_busca()"></button>
+      </div>
+    </div>
+    
+    <div class="menu">
+      <button class="menu-botao">
+        <img class="img-menu" src="img/menu.png" width="50px">
+      </button>
+      <div class="menu-conteudo">
+        <a href="html/carrinho.html">Meu Carrinho</a>
+        <a href="html/cadastrar.html">Página Adm</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="titulo">
+    <img src="img/heart.gif" width="45px" style="padding-right: 4px;">
+    <h3 id="msg">  PRODUTOS  </h3>
+    <img src="img/heart.gif" width="45px">
+  </div>
+
+  <div class="produtos" id="produtos">  </div>
+
+</body>
+
+</html>
