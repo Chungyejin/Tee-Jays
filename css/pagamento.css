@@ -1,0 +1,131 @@
+@media(max-width: 540px){
+  .opcoes{
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .diminuir{
+    padding: 5px;
+    font-size: 17.5px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+
+@media(min-width: 450px){
+  .h2{
+    font-size: 25px;
+  }
+}
+
+.titulo {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+  
+h2{
+  font-family: 'Rubik';
+  background-color: #FF7C9E;
+  color: white;
+}
+
+.botao-pagar button {
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #FFB2C5;
+  color: #FF7C9E;
+  background-color: ghostwhite;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+
+.botao-pagar button:hover {
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #FF7C9E;
+  color: white;
+  background-color: #FF7C9E;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.forma-pagamento{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.credito, .debito, .pix{ 
+  width: 250px;
+  height: 250px;
+  background-color: #FFB2C5;
+  border-radius: 8px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 15px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 2px;
+}
+
+.opcoes{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+
+.junto{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.junto p{
+  font-family: 'Rubik';
+  color: white; 
+  font-size: 15px;
+  height: 8px;
+}
+
+label{
+  font-family: 'Rubik';
+  color: #FF7C9E;
+  font-size: 15px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tipo-pagamento{
+  display: flex;
+  flex-direction: column;
+}
+
+.img-pix{
+  width: 75%;
+  border-radius: 12px;
+}

@@ -1,0 +1,86 @@
+@media(max-width: 540px){
+  h2{
+    font-size: 21px;
+  }
+  
+  .compras{
+    max-width: 330px;
+  }
+
+  .compras img{
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
+
+.titulo {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+h2{
+  font-family: 'Rubik';
+  background-color: #FF7C9E;
+  color: white;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 25px;
+}
+
+h5{
+  font-family: 'Rubik';
+  color: #ff4171;
+  text-align: left;
+  font-size: 20px;
+}
+
+.carrinho{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.compras{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin: 4px;
+}
+
+.compras img{
+  width: 80px; 
+  height: 80px;
+}
+
+.botao-finalizar{
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #FFB2C5;
+  color: #FF7C9E;
+  background-color: ghostwhite;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.botao-finalizar:hover{
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #FF7C9E;
+  color: white;
+  background-color: #FF7C9E;
+  font-weight: bold;
+  font-size: 15px;
+}
