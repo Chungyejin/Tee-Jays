@@ -1,5 +1,5 @@
 # Tee-Jays-Candy-Shop
-Trabalho por: Michele Cristina Otta e Yejin Chung
+Trabalho por: Michele Cristina Otta e Yejin Chungㅎㅎㅎㅎㅎ
 
 Sistema Web de uma loja de doces com HTML, CSS, JavaScript (com API Fetch), PHP e MySQL. Projeto semestral da disciplina Programação Web - PUCPR. 
 
