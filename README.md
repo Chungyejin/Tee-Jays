@@ -1,9 +1,7 @@
 # Tee-Jays-Candy-Shop
-Trabalho por: Michele Cristina Otta e Yejin Chung
+Work by: Michele Cristina Otta and Yejin Chung
 
-Sistema Web de uma loja de doces com HTML, CSS, JavaScript (com API Fetch), PHP e MySQL. Projeto semestral da disciplina Programação Web - PUCPR. 
-
-포트폴리오용 제작 프로젝트로 HTML,CSS,JS(API Fetch이용),PHP,MySQL를 사용함.
+Web system for a candy store with HTML, CSS, JavaScript (with Fetch API), PHP and MySQL. Semester project for the Web Programming discipline - PUCPR.
 
 
 ![Captura de tela 2024-06-25 155407](https://github.com/micheleotta/Tee-Jays-Candy-Shop/assets/131482012/a4abf012-bab6-4381-8208-da85952b1dd9)
