@@ -1,7 +1,7 @@
 # Tee-Jays-Candy-Shop
 Este projeto está disponível em vários idiomas.
 - [한국어](README.ko.md)
-- [Português](README.md)
+- [English](README.md)
   
 Trabalho de: Michele Cristina Otta e Yejin Chung
 
