@@ -9,12 +9,13 @@ Sistema web para loja de doces com HTML, CSS, JavaScript (com Fetch API), PHP e 
 
 ![Captura de tela 2024-06-25 155407](https://github.com/micheleotta/Tee-Jays-Candy-Shop/assets/131482012/a4abf012-bab6-4381-8208-da85952b1dd9)
 
-# About
-It includes general access pages that show the products, the shopping cart and the option to complete the purchase. There is a search bar at the top of the pages, allowing you to search for a product. It also has Administrator access, which can register and delete products.
+# Sobre
 
-The products are all saved and retrieved from a database.
+Contempla páginas de acesso geral que mostram os produtos, o carrinho e opção de finalizar compra. Há uma barra de pesquisa no topo das páginas, permitindo a busca de um produto. Também possui acesso de Administrador, que pode cadastrar e excluir produtos.
 
-The site is responsive, allowing you to adapt the display to other devices, such as cell phones and tablets.
+Os produtos são todos gravados e recuperados de um banco de dados.
+
+O site é responsivo, permitindo adaptar a vizualização a outros dispositivos, como celulares e tablets.
 
 
 ![Captura de tela 2024-06-25 155252](https://github.com/micheleotta/Tee-Jays-Candy-Shop/assets/131482012/9b64e1ab-74fe-42f6-86da-f36e74b2029d) 
