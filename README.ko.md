@@ -1,6 +1,7 @@
 # Tee-Jays-Candy-Shop
-This project is available in multiple languages.
-- [한국어](README.ko.md)
+
+이 프로젝트는 여러 언어로 제공됩니다.
+- [English](README.md)
 - [Português](README.pt.md)
   
 팀원: Michele Cristina Otta, Yejin Chung
